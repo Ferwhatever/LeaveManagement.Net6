@@ -1,0 +1,18 @@
+﻿
+ @import "../wwwroot/lib/bootstrap/dist/css/bootstrap";
+
+@import "../wwwroot/lib/bootstrap/dist/css/functions";
+$primary: #DBB555;
+$danger: #ff4136;
+
+/* Define standard variables and values for website */
+$bgcolor: lightblue !global;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+/* Use the variables */
+body {
+     background-color: $bgcolor ;
+     color: $textcolor;
+     font-size: $fontsize;
+}
