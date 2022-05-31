@@ -1,5 +1,16 @@
+$primary: #DBB555;
+$danger: #dd0000;
+$success: lime;
+$warning: orange;
+$info: aqua;
+
+$body-bg: #f3f3f0;
+
+@import "bootstrap";
+$btn-warning-color: #DBB555;
+
 html {
-  font-size: 14px;
+     font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -7,12 +18,29 @@ html {
     font-size: 16px;
   }
 }
-
+nav {
+     background-color: #DBB555;
+}
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+     margin-bottom: 60px;
+     background-color: #EBE6DD;
 }
+
+
+.btn-default {
+     color: #5C543F;
+     background-color: #E1CD9B;
+     border-color: #DBB555;
+}
+     .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+          color: #5C584D;
+          background-color: #E1D8BD;
+          border-color: #DBC077;
+     }
+
+          @import "bootstrap";
